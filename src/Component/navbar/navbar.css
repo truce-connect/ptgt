@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
-        display: flex;
+        display:flex;
     }
 
     .gpt3__navbar-menu {
@@ -113,6 +113,23 @@
     .gpt3__navbar {
         padding: 2rem 4rem;
     }
+    .gpt3__navbar-links_container{
+         display: block;
+       
+         padding :2rem;
+        
+    }
+    .gpt3__navbar-links_container  p{
+             border: 2px solid salmon;
+             margin-top: 1rem;
+             min-width: 210px;
+             border-radius: 5px;
+             box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+              padding:1rem ;
+              width: fit-content;
+    }
+
+
 }
 
 @media screen and (max-width: 550px) {

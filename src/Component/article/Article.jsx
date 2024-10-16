@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../article/article.css';
+import './article.css';
 
 const Article = ({ imgUrl, date, text }) => (
   <div className="gpt3__blog-container_article">
@@ -10,7 +10,7 @@ const Article = ({ imgUrl, date, text }) => (
     <div className="gpt3__blog-container_article-content">
       <div>
         <p>{date}</p>
-        <h3>{text}</h3>
+        <h3>{text}</h3>git commit -m "Your commit message"
       </div>
       <p>Read Full Article</p>
     </div>
